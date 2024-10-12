@@ -15,16 +15,17 @@ public class semana9 {
      */
     public static void main(String[] args) {
         Leon leon=new Leon();
-        Caballo caballo=new Caballo();
+        Caballo caballo=new Caballo();  
+        System.out.println("Escena de caza:");
+        
         leon.dormir();
         caballo.dormir();
-        caballo.alimentar();
         caballo.pastar();
+        caballo.alimentar();
         leon.cazar();
         leon.correr();
         caballo.correr();
-        leon.alimentar();
-        
+        leon.alimentar(); 
     }
+}      
     
-}
